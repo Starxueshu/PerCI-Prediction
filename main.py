@@ -27,7 +27,7 @@ if st.button("Submit"):
     # Get prediction
     prediction = rf_clf.predict_proba(x)[0, 1]
         # Output prediction
-    st.text(f"Probability of experiencing medical disputes: {'{:.2%}'.format(round(prediction, 5))}")
+    st.text(f"Probability of developing PerCI: {'{:.2%}'.format(round(prediction, 5))}")
     if prediction < 0.184:
         st.text(f"Risk group: low-risk group")
     else:
