@@ -4,7 +4,7 @@ import joblib as jl
 import pandas as pd
 import streamlit as st
 
-st.header("Biological signatures and prediction of an immunosuppressive status—persistent critical illness—using machine learning methods")
+st.header("Biological signatures and prediction of an immunosuppressive status—persistent critical illness—among orthopedic trauma patients using machine learning techniques")
 st.sidebar.title("Parameters Selection Panel")
 st.sidebar.markdown("Picking up parameters according to actual conditions")
 
